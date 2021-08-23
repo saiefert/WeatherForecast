@@ -1,0 +1,16 @@
+{
+  "runAt": {
+    "hour": "16:0:0",
+    "region": true,
+    "dayOfWeek": {
+      "monday": true,
+      "tuesday": true,
+      "wednesday": true,
+      "thursday": true,
+      "friday": true,
+      "saturday": false,
+      "sunday": false
+    },
+    "active": true
+  }
+}
