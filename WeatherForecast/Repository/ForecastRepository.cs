@@ -1,11 +1,11 @@
-﻿using ClimaRmc.Model;
+﻿using WeatherForecast.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.Repository
+namespace WeatherForecast.Repository
 {
     public class ForecastRepository
     {

@@ -1,6 +1,6 @@
-﻿using ClimaRmc.Model;
-using ClimaRmc.Repository;
-using ClimaRmc.WebScraping;
+﻿using WeatherForecast.Model;
+using WeatherForecast.Repository;
+using WeatherForecast.WebScraping;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.Controllers
+namespace WeatherForecast.Controllers
 {
     [ApiController]
     [Route("[controller]")]

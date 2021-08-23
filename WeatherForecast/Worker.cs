@@ -1,5 +1,5 @@
-﻿using ClimaRmc.Config;
-using ClimaRmc.Repository;
+﻿using WeatherForecast.Config;
+using WeatherForecast.Repository;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ClimaRmc
+namespace WeatherForecast
 {
     public class Worker : BackgroundService
     {

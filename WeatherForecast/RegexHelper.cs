@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ClimaRmc
+namespace WeatherForecast
 {
     public static class RegexHelper
     {

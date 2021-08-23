@@ -1,10 +1,10 @@
-﻿using ClimaRmc.Model;
+﻿using WeatherForecast.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.Repository
+namespace WeatherForecast.Repository
 {
     public class CitiesRepository
     {

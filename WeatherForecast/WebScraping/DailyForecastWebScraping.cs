@@ -1,6 +1,6 @@
-﻿using ClimaRmc.ClimaExceptions;
-using ClimaRmc.Model;
-using ClimaRmc.Repository;
+﻿using WeatherForecast.ClimaExceptions;
+using WeatherForecast.Model;
+using WeatherForecast.Repository;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
 using OpenQA.Selenium.Chrome;
@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.WebScraping
+namespace WeatherForecast.WebScraping
 {
     public class DailyForecastWebScraping
     {

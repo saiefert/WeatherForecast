@@ -1,4 +1,4 @@
-﻿using ClimaRmc.Repository;
+﻿using WeatherForecast.Repository;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClimaRmc
+namespace WeatherForecast
 {
     public static class ClimaTempoHelper
     {

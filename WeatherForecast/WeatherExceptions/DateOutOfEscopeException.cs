@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.ClimaExceptions
+namespace WeatherForecast.ClimaExceptions
 {
     public class DateOutOfEscopeException : Exception
     {

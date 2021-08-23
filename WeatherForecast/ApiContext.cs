@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ClimaRmc.Model;
+using WeatherForecast.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ClimaRmc.Config;
+using WeatherForecast.Config;
 
-namespace ClimaRmc
+namespace WeatherForecast
 {
     public class ApiContext : DbContext
     {

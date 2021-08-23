@@ -1,4 +1,4 @@
-﻿using ClimaRmc.Repository;
+﻿using WeatherForecast.Repository;
 using HtmlAgilityPack;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.WebScraping
+namespace WeatherForecast.WebScraping
 {
     public class CitiesCodeWebScraping
     {

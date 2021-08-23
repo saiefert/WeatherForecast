@@ -1,4 +1,4 @@
-﻿using ClimaRmc.Model;
+﻿using WeatherForecast.Model;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
 using System;
@@ -10,10 +10,10 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using ClimaRmc.Repository;
+using WeatherForecast.Repository;
 using System.Threading;
 
-namespace ClimaRmc.WebScraping
+namespace WeatherForecast.WebScraping
 {
     public class PeriodForecastWebScraping
     {

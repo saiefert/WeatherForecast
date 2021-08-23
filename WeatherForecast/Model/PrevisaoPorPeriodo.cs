@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Text.Json.Serialization;
 
-namespace ClimaRmc.Model
+namespace WeatherForecast.Model
 {
     public struct WeatherPeriodJsonModel
     {

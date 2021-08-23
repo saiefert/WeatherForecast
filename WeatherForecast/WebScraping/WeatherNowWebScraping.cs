@@ -1,11 +1,11 @@
-﻿using ClimaRmc.Model;
+﻿using WeatherForecast.Model;
 using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace ClimaRmc.WebScraping
+namespace WeatherForecast.WebScraping
 {
     public class WeatherNowWebScraping
     {

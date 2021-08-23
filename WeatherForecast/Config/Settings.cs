@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClimaRmc.Config
+namespace WeatherForecast.Config
 {
     public static class Settings
     {
