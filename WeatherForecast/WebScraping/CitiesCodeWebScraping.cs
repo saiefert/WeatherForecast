@@ -41,17 +41,17 @@ namespace ClimaRmc.WebScraping
                 actions.SendKeys(Keys.Backspace).Build().Perform();
 
 
-                actions.SendKeys(search, city.apiCity);
+                actions.SendKeys(search, city.CityNormalized);
                 actions.Perform();
                 Thread.Sleep(3000);
                 var page = browser.PageSource;
 
                 try
                 {
-                    var link = GetLink(page, city.apiCity, state);
+                    var link = GetLink(page, city.CityNormalized, state);
                     var id = IdClimatempo(link);
 
-                    repo.EditIdClimatempoCities(city.apiCity, id);
+                    repo.EditIdClimatempoCities(city.CityNormalized, id);
 
                     Thread.Sleep(2000);
                 }
